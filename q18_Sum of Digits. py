@@ -1,0 +1,16 @@
+###-------------problem
+Code:
+Python
+num = 123
+sum_digits = 0
+
+# Add digits
+while num > 0:
+    digit = num % 10
+    sum_digits += digit
+    num //= 10
+
+print(sum_digits)
+Output:
+
+6
