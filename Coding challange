@@ -1,4 +1,4 @@
-###   Question 1: Bonus Calculation
+###  -------------------- Question 1: Bonus Calculation
 Problem:
 Calculate bonus based on salary.
 Code:
@@ -15,7 +15,7 @@ Bonus = 3150
 
 
 
-### Question 2: Age Classification
+###------------- Question 2: Age Classification
 Problem:
 Classify user as Minor, Adult, or Senior.
 Code:
@@ -35,7 +35,7 @@ Senior
 
 
 
-### Question 3: Divisibility Check
+###------------- Question 3: Divisibility Check
 Problem:
 Check if number is divisible by both 3 and 5.
 Code:
@@ -53,7 +53,7 @@ Yes
 
 
 
-### Question 4: Login Validation
+###---------------- Question 4: Login Validation
 Problem:
 Verify username and password.
 Code:
@@ -76,7 +76,7 @@ Login Successful
 
 
 
-### Question 5: Largest Number
+###------------------ Question 5: Largest Number
 Problem:
 Find largest among three numbers.
 Code:
@@ -100,7 +100,7 @@ Output:
 
 
 
-### Question 6: Leap Year Check
+### ----------------Question 6: Leap Year Check
 Problem:
 Check if a year is leap year.
 Code:
@@ -118,7 +118,7 @@ Leap Year
 
 
 
-### Question 7: Vowel Check
+### ----------------Question 7: Vowel Check
 Problem:
 Check if character is vowel.
 Code:
@@ -139,7 +139,7 @@ Vowel
 
 
 
-### Question 8: Grade Assignment
+### --------------Question 8: Grade Assignment
 Problem:
 Assign grade based on marks.
 Code:
@@ -163,7 +163,7 @@ B
 
 
 
-### Question 9: Number Type
+### ------------Question 9: Number Type
 Problem:
 Check if number is positive, negative, or zero.
 Code:
@@ -183,7 +183,7 @@ Negative
 
 
 
-### Question 10: Ticket Price
+###----------------- Question 10: Ticket Price
 Problem:
 Determine ticket price based on day.
 Code:
@@ -203,7 +203,7 @@ Output:
 
 
 
-### Question 11: Weekly Sales Total
+###------------ Question 11: Weekly Sales Total
 Problem:
 Calculate total weekly sales.
 Code:
@@ -224,7 +224,7 @@ Output:
 
 
 
-### Question 12: Even Numbers from 1 to N
+###------------ Question 12: Even Numbers from 1 to N
 Code:
 Python
 n = 10
@@ -239,7 +239,7 @@ Output:
 
 
 
-### Question 13: Count Numbers > 50
+###--------------- Question 13: Count Numbers > 50
 Code:
 Python
 nums = [10, 60, 30, 80]
@@ -258,7 +258,7 @@ Output:
 
 
 
-### Question 14: Reverse a Number
+###---------------- Question 14: Reverse a Number
 Code:
 Python
 num = 1234
@@ -277,7 +277,7 @@ Output:
 
 
 
-### Question 15: Palindrome Number
+###-------------- Question 15: Palindrome Number
 Code:
 Python
 num = 121
@@ -301,7 +301,7 @@ Palindrome
 
 
 
-### Question 16: Factorial
+###--------------- Question 16: Factorial
 Code:
 Python
 num = 5
@@ -318,7 +318,7 @@ Output:
 
 
 
-### Question 17: Multiplication Table
+### --------------Question 17: Multiplication Table
 Code:
 Python
 num = 3
@@ -332,7 +332,7 @@ Output:
 
 
 
-### Question 18: Sum of Digits
+###------------- Question 18: Sum of Digits
 Code:
 Python
 num = 123
@@ -351,7 +351,7 @@ Output:
 
 
 
-### Question 19: Count Digits
+###------------ Question 19: Count Digits
 Code:
 Python
 num = 45678
@@ -369,7 +369,7 @@ Output:
 
 
 
-### Question 20: Max Without Built-in
+### -------------Question 20: Max Without Built-in
 Code:
 Python
 nums = [5, 8, 2]
@@ -389,7 +389,7 @@ Output:
 
 
 
-### Question 21: Count Vowels in String
+### -------------Question 21: Count Vowels in String
 Code:
 Python
 text = "hello"
@@ -407,7 +407,7 @@ Output:
 
 
 
-### Question 22: Palindrome String
+### ------------Question 22: Palindrome String
 Code:
 Python
 text = "madam"
@@ -425,7 +425,7 @@ Yes
 
 
 
-### Question 23: Remove Spaces
+###------------- Question 23: Remove Spaces
 Code:
 Python
 text = "hello world"
@@ -443,7 +443,7 @@ helloworld
 
 
 
-### Question 24: Count Character Occurrence
+###---------- Question 24: Count Character Occurrence
 Code:
 Python
 text = "banana"
@@ -462,7 +462,7 @@ Output:
 
 
 
-### Question 25: Uppercase Without Built-in
+###------------ Question 25: Uppercase Without Built-in
 Code:
 Python
 text = "abc"
@@ -479,7 +479,7 @@ ABC
 
 
 
-### Question 26: Longest Word
+### --------------Question 26: Longest Word
 Code:
 Python
 text = "I love programming"
@@ -499,7 +499,7 @@ programming
 
 
 
-### Question 27: Replace Vowels with *
+###------------ Question 27: Replace Vowels with *
 Code:
 Python
 text = "hello"
@@ -520,7 +520,7 @@ h*ll*
 
 
 
-### Question 28: Anagram Check
+###------------ Question 28: Anagram Check
 Code:
 Python
 str1 = "listen"
@@ -552,7 +552,7 @@ Output:
 
 
 
-### Question 30: Duplicate Characters
+###------------- Question 30: Duplicate Characters
 Code:
 Python
 text = "programming"
@@ -576,7 +576,7 @@ r g m
 
 
 
-### Question 31: Remove Duplicates from List
+###------------ Question 31: Remove Duplicates from List
 Problem:
 Remove duplicate elements from list.
 Code:
@@ -597,7 +597,7 @@ Output:
 
 
 
-### Question 32: Common Elements
+###----------- Question 32: Common Elements
 Problem:
 Find common elements between two lists.
 Code:
@@ -619,7 +619,7 @@ Output:
 
 
 
-### Question 33: Second Largest Element
+###------------ Question 33: Second Largest Element
 Problem:
 Find second largest number.
 Code:
@@ -646,7 +646,7 @@ Output:
 
 
 
-### Question 34: Count Unique Elements
+### -----------Question 34: Count Unique Elements
 Problem:
 Count number of unique elements.
 Code:
@@ -668,7 +668,7 @@ Output:
 
 
 
-### Question 35: Sort List Without sort()
+###------------- Question 35: Sort List Without sort()
 Problem:
 Sort list manually.
 Code:
@@ -689,7 +689,7 @@ Output:
 
 
 
-### Question 36: List to Tuple
+###----------- Question 36: List to Tuple
 Problem:
 Convert list into tuple.
 Code:
@@ -705,7 +705,7 @@ Output:
 
 
 
-### Question 37: Union of Sets
+###------------ Question 37: Union of Sets
 Problem:
 Find union of two sets.
 Code:
@@ -723,7 +723,7 @@ Output:
 
 
 
-### Question 38: Intersection of Sets
+### -----------Question 38: Intersection of Sets
 Problem:
 Find common elements of sets.
 Code:
@@ -739,4 +739,271 @@ Output:
 {2}
 
 
+
+
+###---------- Question 39: Missing Number
+Problem:
+Find missing number in sequence.
+Code:
+Python
+nums = [1, 2, 4, 5]
+
+n = len(nums) + 1
+
+# Calculate expected sum
+total_sum = n * (n + 1) // 2
+
+# Actual sum
+actual_sum = sum(nums)
+
+# Missing number
+missing = total_sum - actual_sum
+
+print(missing)
+Output:
+
+3
+
+
+
+### ---------Question 40: Rotate List
+Problem:
+Rotate list by one position.
+Code:
+Python
+nums = [1, 2, 3]
+
+# Store last element
+last = nums[-1]
+
+# Shift elements right
+for i in range(len(nums) - 1, 0, -1):
+    nums[i] = nums[i - 1]
+
+nums[0] = last
+
+print(nums)
+Output:
+
+[3, 1, 2]
+
+
+
+
+###--------- Qestion 41: Highest Marks
+Problem:
+Find student with highest marks.
+Code:
+Python
+students = {"A": 80, "B": 95, "C": 78}
+
+max_marks = 0
+top_student = ""
+
+# Find highest marks
+for name in students:
+    if students[name] > max_marks:
+        max_marks = students[name]
+        top_student = name
+
+print(top_student)
+Output:
+
+B
+
+
+
+
+###--------- Question 42: Total Bill
+Problem:
+Calculate total bill amount.
+Code:
+Python
+def total_bill(items):
+    total = 0
+    
+    # Add all values
+    for price in items:
+        total += price
+    
+    return total
+
+print(total_bill([100, 200, 300]))
+Output:
+
+600
+
+
+
+
+### -------- Question 43: Key Exists
+Problem:
+Check if key exists in dictionary.
+Code:
+Python
+data = {"a": 1, "b": 2}
+key = "a"
+
+# Check key
+if key in data:
+    print("Yes")
+else:
+    print("No")
+Output:
+
+Yes
+
+
+
+
+### --------Question 44: Square Function
+Problem:
+Return square of a number.
+Code:
+Python
+def square(n):
+    return n * n
+
+print(square(5))
+Output:
+
+25
+
+
+
+
+### --------- Question 45: Frequency Count
+Problem:
+Count frequency using dictionary.
+Code:
+Python
+nums = [1, 2, 2, 3]
+
+freq = {}
+
+# Count occurrences
+for n in nums:
+    if n in freq:
+        freq[n] += 1
+    else:
+        freq[n] = 1
+
+print(freq)
+Output:
+
+{1: 1, 2: 2, 3: 1}
+
+
+
+
+###------- Question 46: Add Function (Module)
+Problem:
+Create function to add two numbers.
+Code:
+Python
+def add(a, b):
+    return a + b
+
+print(add(2, 3))
+Output:
+
+5
+
+
+
+
+###------- Question 47: Even Numbers Function
+Problem:
+Return even numbers from list.
+Code:
+Python
+def get_even(nums):
+    result = []
+    
+    for n in nums:
+        if n % 2 == 0:
+            result.append(n)
+    
+    return result
+
+print(get_even([1, 2, 3, 4]))
+Output:
+
+[2, 4]
+
+
+
+
+####------- Question 48: Sort Dictionary
+Problem:
+Sort dictionary by keys.
+Code:
+Python
+data = {"b": 2, "a": 1}
+
+# Sort keys
+sorted_keys = list(data.keys())
+sorted_keys.sort()
+
+sorted_dict = {}
+
+for key in sorted_keys:
+    sorted_dict[key] = data[key]
+
+print(sorted_dict)
+Output:
+
+{'a': 1, 'b': 2}
+
+
+
+
+####------ Question 49: Merge Dictionaries
+Problem:
+Merge two dictionaries.
+Code:
+Python
+d1 = {"a": 1}
+d2 = {"b": 2}
+
+result = {}
+
+# Add first dictionary
+for key in d1:
+    result[key] = d1[key]
+
+# Add second dictionary
+for key in d2:
+    result[key] = d2[key]
+
+print(result)
+Output:
+
+{'a': 1, 'b': 2}
+
+
+
+
+###------ Question 50: Prime Number
+Problem:
+Check if number is prime.
+Code:
+Python
+num = 7
+
+is_prime = True
+
+# Check divisibility
+for i in range(2, num):
+    if num % i == 0:
+        is_prime = False
+        break
+
+if is_prime and num > 1:
+    print("Prime")
+else:
+    print("Not Prime")
+Output:
+
+Prime
 
