@@ -1,4 +1,4 @@
-Question 1: Bonus Calculation
+###   Question 1: Bonus Calculation
 Problem:
 Calculate bonus based on salary.
 Code:
@@ -15,7 +15,7 @@ Bonus = 3150
 
 
 
-Question 2: Age Classification
+### Question 2: Age Classification
 Problem:
 Classify user as Minor, Adult, or Senior.
 Code:
@@ -35,7 +35,7 @@ Senior
 
 
 
-Question 3: Divisibility Check
+### Question 3: Divisibility Check
 Problem:
 Check if number is divisible by both 3 and 5.
 Code:
@@ -53,7 +53,7 @@ Yes
 
 
 
-Question 4: Login Validation
+### Question 4: Login Validation
 Problem:
 Verify username and password.
 Code:
@@ -75,7 +75,7 @@ Output:
 Login Successful
 
 
-Question 5: Largest Number
+### Question 5: Largest Number
 Problem:
 Find largest among three numbers.
 Code:
