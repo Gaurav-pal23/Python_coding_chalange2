@@ -1,0 +1,16 @@
+####---------problem
+Code:
+Python
+num = 1234
+rev = 0
+
+# Reverse digits
+while num > 0:
+    digit = num % 10        # Get last digit
+    rev = rev * 10 + digit # Build reverse
+    num //= 10             # Remove last digit
+
+print(rev)
+Output:
+
+4321
