@@ -75,6 +75,7 @@ Output:
 Login Successful
 
 
+
 ### Question 5: Largest Number
 Problem:
 Find largest among three numbers.
@@ -96,6 +97,9 @@ print(largest)
 Output:
 
 25
+
+
+
 ### Question 6: Leap Year Check
 Problem:
 Check if a year is leap year.
@@ -111,6 +115,7 @@ else:
 Output:
 
 Leap Year
+
 
 
 ### Question 7: Vowel Check
@@ -131,6 +136,7 @@ else:
 Output:
 
 Vowel
+
 
 
 ### Question 8: Grade Assignment
@@ -156,6 +162,7 @@ Output:
 B
 
 
+
 ### Question 9: Number Type
 Problem:
 Check if number is positive, negative, or zero.
@@ -175,6 +182,7 @@ Output:
 Negative
 
 
+
 ### Question 10: Ticket Price
 Problem:
 Determine ticket price based on day.
@@ -192,6 +200,7 @@ print(price)
 Output:
 
 200
+
 
 
 ### Question 11: Weekly Sales Total
@@ -214,6 +223,7 @@ Output:
 1500
 
 
+
 ### Question 12: Even Numbers from 1 to N
 Code:
 Python
@@ -226,6 +236,7 @@ for i in range(1, n + 1):
 Output:
 
 2 4 6 8 10
+
 
 
 ### Question 13: Count Numbers > 50
@@ -246,6 +257,7 @@ Output:
 2
 
 
+
 ### Question 14: Reverse a Number
 Code:
 Python
@@ -262,6 +274,7 @@ print(rev)
 Output:
 
 4321
+
 
 
 ### Question 15: Palindrome Number
@@ -319,7 +332,7 @@ Output:
 
 
 
-###Question 18: Sum of Digits
+### Question 18: Sum of Digits
 Code:
 Python
 num = 123
@@ -335,6 +348,7 @@ print(sum_digits)
 Output:
 
 6
+
 
 
 ### Question 19: Count Digits
@@ -374,6 +388,7 @@ Output:
 8
 
 
+
 ### Question 21: Count Vowels in String
 Code:
 Python
@@ -392,7 +407,6 @@ Output:
 
 
 
-
 ### Question 22: Palindrome String
 Code:
 Python
@@ -408,6 +422,9 @@ else:
 Output:
 
 Yes
+
+
+
 ### Question 23: Remove Spaces
 Code:
 Python
@@ -425,6 +442,7 @@ Output:
 helloworld
 
 
+
 ### Question 24: Count Character Occurrence
 Code:
 Python
@@ -440,7 +458,11 @@ for ch in text:
 print(count)
 Output:
 
-3 Question 25: Uppercase Without Built-in
+3
+
+
+
+### Question 25: Uppercase Without Built-in
 Code:
 Python
 text = "abc"
@@ -454,7 +476,10 @@ print(result)
 Output:
 
 ABC
-✅ Question 26: Longest Word
+
+
+
+### Question 26: Longest Word
 Code:
 Python
 text = "I love programming"
@@ -493,6 +518,8 @@ Output:
 h*ll*
 
 
+
+
 ### Question 28: Anagram Check
 Code:
 Python
@@ -522,6 +549,7 @@ print(len(words))
 Output:
 
 3
+
 
 
 ### Question 30: Duplicate Characters
