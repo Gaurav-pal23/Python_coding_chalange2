@@ -572,3 +572,171 @@ for d in duplicates:
 Output:
 
 r g m
+
+
+
+
+### Question 31: Remove Duplicates from List
+Problem:
+Remove duplicate elements from list.
+Code:
+Python
+nums = [1, 1, 2, 3]
+
+result = []
+
+# Loop through list and store unique elements
+for n in nums:
+    if n not in result:
+        result.append(n)
+
+print(result)
+Output:
+
+[1, 2, 3]
+
+
+
+### Question 32: Common Elements
+Problem:
+Find common elements between two lists.
+Code:
+Python
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+
+common = []
+
+# Check elements present in both lists
+for n in list1:
+    if n in list2 and n not in common:
+        common.append(n)
+
+print(common)
+Output:
+
+[2, 3]
+
+
+
+### Question 33: Second Largest Element
+Problem:
+Find second largest number.
+Code:
+Python
+nums = [10, 20, 5, 15]
+
+unique = []
+
+# Remove duplicates
+for n in nums:
+    if n not in unique:
+        unique.append(n)
+
+# Sort manually
+for i in range(len(unique)):
+    for j in range(i + 1, len(unique)):
+        if unique[i] > unique[j]:
+            unique[i], unique[j] = unique[j], unique[i]
+
+print(unique[-2])
+Output:
+
+15
+
+
+
+### Question 34: Count Unique Elements
+Problem:
+Count number of unique elements.
+Code:
+Python
+nums = [1, 1, 2, 3, 3]
+
+unique = []
+
+# Store unique values
+for n in nums:
+    if n not in unique:
+        unique.append(n)
+
+print(len(unique))
+Output:
+
+3
+
+
+
+
+### Question 35: Sort List Without sort()
+Problem:
+Sort list manually.
+Code:
+Python
+nums = [3, 1, 2]
+
+# Bubble sort logic
+for i in range(len(nums)):
+    for j in range(len(nums) - 1):
+        if nums[j] > nums[j + 1]:
+            nums[j], nums[j + 1] = nums[j + 1], nums[j]
+
+print(nums)
+Output:
+
+[1, 2, 3]
+
+
+
+
+### Question 36: List to Tuple
+Problem:
+Convert list into tuple.
+Code:
+Python
+nums = [1, 2, 3]
+
+result = tuple(nums)
+
+print(result)
+Output:
+
+(1, 2, 3)
+
+
+
+### Question 37: Union of Sets
+Problem:
+Find union of two sets.
+Code:
+Python
+set1 = {1, 2}
+set2 = {2, 3}
+
+result = set1 | set2
+
+print(result)
+Output:
+
+{1, 2, 3}
+
+
+
+
+### Question 38: Intersection of Sets
+Problem:
+Find common elements of sets.
+Code:
+Python
+set1 = {1, 2}
+set2 = {2, 3}
+
+result = set1 & set2
+
+print(result)
+Output:
+
+{2}
+
+
+
