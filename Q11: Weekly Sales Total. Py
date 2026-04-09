@@ -1,0 +1,17 @@
+###-------Problem:
+Calculate total weekly sales.
+Code:
+Python
+sales = [100, 200, 150, 300, 250, 400, 100]
+
+# Initialize total
+total = 0
+
+# Add each day's sales
+for s in sales:
+    total += s
+
+print(total)
+Output:
+
+1500
