@@ -1,0 +1,11 @@
+###--------problem
+Code:
+Python
+num = 3
+
+# Print table
+for i in range(1, 11):
+    print(num * i, end=" ")
+Output:
+
+3 6 9 12 15 18 21 24 27 30
