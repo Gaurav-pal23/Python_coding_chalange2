@@ -95,7 +95,416 @@ if c > largest:
 print(largest)
 Output:
 
-25
+25Question 6: Leap Year Check
+Problem:
+Check if a year is leap year.
+Code:
+Python
+year = 2024
+
+# Leap year condition
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print("Leap Year")
+else:
+    print("Not Leap Year")
+Output:
+
+Leap Year
+✅ Question 7: Vowel Check
+Problem:
+Check if character is vowel.
+Code:
+Python
+char = 'e'
+
+# Convert to lowercase
+char = char.lower()
+
+# Check vowel
+if char in ['a', 'e', 'i', 'o', 'u']:
+    print("Vowel")
+else:
+    print("Consonant")
+Output:
+
+Vowel
+✅ Question 8: Grade Assignment
+Problem:
+Assign grade based on marks.
+Code:
+Python
+marks = 82
+
+# Grade logic
+if marks >= 90:
+    print("A")
+elif marks >= 80:
+    print("B")
+elif marks >= 70:
+    print("C")
+elif marks >= 60:
+    print("D")
+else:
+    print("F")
+Output:
+
+B
+✅ Question 9: Number Type
+Problem:
+Check if number is positive, negative, or zero.
+Code:
+Python
+num = -5
+
+# Check number type
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Zero")
+Output:
+
+Negative
+✅ Question 10: Ticket Price
+Problem:
+Determine ticket price based on day.
+Code:
+Python
+day = "Sunday"
+
+# Set ticket price
+if day == "Sunday":
+    price = 200
+else:
+    price = 150
+
+print(price)
+Output:
+
+200
 
 
 
+
+Question 11: Weekly Sales Total
+Problem:
+Calculate total weekly sales.
+Code:
+Python
+sales = [100, 200, 150, 300, 250, 400, 100]
+
+# Initialize total
+total = 0
+
+# Add each day's sales
+for s in sales:
+    total += s
+
+print(total)
+Output:
+
+1500
+✅ Question 12: Even Numbers from 1 to N
+Code:
+Python
+n = 10
+
+# Loop from 1 to n
+for i in range(1, n + 1):
+    if i % 2 == 0:  # Check even
+        print(i, end=" ")
+Output:
+
+2 4 6 8 10
+✅ Question 13: Count Numbers > 50
+Code:
+Python
+nums = [10, 60, 30, 80]
+
+count = 0
+
+# Count numbers greater than 50
+for n in nums:
+    if n > 50:
+        count += 1
+
+print(count)
+Output:
+
+2
+✅ Question 14: Reverse a Number
+Code:
+Python
+num = 1234
+rev = 0
+
+# Reverse digits
+while num > 0:
+    digit = num % 10        # Get last digit
+    rev = rev * 10 + digit # Build reverse
+    num //= 10             # Remove last digit
+
+print(rev)
+Output:
+
+4321
+✅ Question 15: Palindrome Number
+Code:
+Python
+num = 121
+original = num
+rev = 0
+
+# Reverse number
+while num > 0:
+    digit = num % 10
+    rev = rev * 10 + digit
+    num //= 10
+
+# Compare
+if original == rev:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+Output:
+
+Palindrome
+✅ Question 16: Factorial
+Code:
+Python
+num = 5
+fact = 1
+
+# Calculate factorial
+for i in range(1, num + 1):
+    fact *= i
+
+print(fact)
+Output:
+
+120
+✅ Question 17: Multiplication Table
+Code:
+Python
+num = 3
+
+# Print table
+for i in range(1, 11):
+    print(num * i, end=" ")
+Output:
+
+3 6 9 12 15 18 21 24 27 30
+✅ Question 18: Sum of Digits
+Code:
+Python
+num = 123
+sum_digits = 0
+
+# Add digits
+while num > 0:
+    digit = num % 10
+    sum_digits += digit
+    num //= 10
+
+print(sum_digits)
+Output:
+
+6
+✅ Question 19: Count Digits
+Code:
+Python
+num = 45678
+count = 0
+
+# Count digits
+while num > 0:
+    count += 1
+    num //= 10
+
+print(count)
+Output:
+
+5
+✅ Question 20: Max Without Built-in
+Code:
+Python
+nums = [5, 8, 2]
+
+# Assume first is max
+max_val = nums[0]
+
+# Compare each element
+for n in nums:
+    if n > max_val:
+        max_val = n
+
+print(max_val)
+Output:
+
+8
+
+Question 21: Count Vowels in String
+Code:
+Python
+text = "hello"
+count = 0
+
+# Count vowels
+for ch in text:
+    if ch in "aeiou":
+        count += 1
+
+print(count)
+Output:
+
+2
+
+
+
+
+
+
+
+
+
+✅ Question 22: Palindrome String
+Code:
+Python
+text = "madam"
+
+# Reverse string
+rev = text[::-1]
+
+if text == rev:
+    print("Yes")
+else:
+    print("No")
+Output:
+
+Yes
+✅ Question 23: Remove Spaces
+Code:
+Python
+text = "hello world"
+result = ""
+
+# Remove spaces
+for ch in text:
+    if ch != " ":
+        result += ch
+
+print(result)
+Output:
+
+helloworld
+✅ Question 24: Count Character Occurrence
+Code:
+Python
+text = "banana"
+char = 'a'
+count = 0
+
+# Count occurrences
+for ch in text:
+    if ch == char:
+        count += 1
+
+print(count)
+Output:
+
+3
+✅ Question 25: Uppercase Without Built-in
+Code:
+Python
+text = "abc"
+result = ""
+
+# Convert manually
+for ch in text:
+    result += chr(ord(ch) - 32)
+
+print(result)
+Output:
+
+ABC
+✅ Question 26: Longest Word
+Code:
+Python
+text = "I love programming"
+words = text.split()
+
+longest = words[0]
+
+# Find longest word
+for w in words:
+    if len(w) > len(longest):
+        longest = w
+
+print(longest)
+Output:
+
+programming
+✅ Question 27: Replace Vowels with *
+Code:
+Python
+text = "hello"
+result = ""
+
+# Replace vowels
+for ch in text:
+    if ch in "aeiou":
+        result += "*"
+    else:
+        result += ch
+
+print(result)
+Output:
+
+h*ll*
+✅ Question 28: Anagram Check
+Code:
+Python
+str1 = "listen"
+str2 = "silent"
+
+# Sort both strings
+if sorted(str1) == sorted(str2):
+    print(True)
+else:
+    print(False)
+Output:
+
+True
+✅ Question 29: Count Words
+Code:
+Python
+text = "Python is great"
+
+# Split words
+words = text.split()
+
+print(len(words))
+Output:
+
+3
+✅ Question 30: Duplicate Characters
+Code:
+Python
+text = "programming"
+seen = []
+duplicates = []
+
+# Find duplicates
+for ch in text:
+    if ch in seen and ch not in duplicates:
+        duplicates.append(ch)
+    else:
+        seen.append(ch)
+
+# Print duplicates
+for d in duplicates:
+    print(d, end=" ")
+Output:
+
+r g m
