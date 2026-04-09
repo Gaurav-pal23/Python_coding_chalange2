@@ -95,7 +95,8 @@ if c > largest:
 print(largest)
 Output:
 
-25Question 6: Leap Year Check
+25
+### Question 6: Leap Year Check
 Problem:
 Check if a year is leap year.
 Code:
@@ -110,7 +111,9 @@ else:
 Output:
 
 Leap Year
-✅ Question 7: Vowel Check
+
+
+### Question 7: Vowel Check
 Problem:
 Check if character is vowel.
 Code:
@@ -128,7 +131,9 @@ else:
 Output:
 
 Vowel
-✅ Question 8: Grade Assignment
+
+
+### Question 8: Grade Assignment
 Problem:
 Assign grade based on marks.
 Code:
@@ -149,7 +154,9 @@ else:
 Output:
 
 B
-✅ Question 9: Number Type
+
+
+### Question 9: Number Type
 Problem:
 Check if number is positive, negative, or zero.
 Code:
@@ -166,7 +173,9 @@ else:
 Output:
 
 Negative
-✅ Question 10: Ticket Price
+
+
+### Question 10: Ticket Price
 Problem:
 Determine ticket price based on day.
 Code:
@@ -185,9 +194,7 @@ Output:
 200
 
 
-
-
-Question 11: Weekly Sales Total
+### Question 11: Weekly Sales Total
 Problem:
 Calculate total weekly sales.
 Code:
@@ -205,7 +212,9 @@ print(total)
 Output:
 
 1500
-✅ Question 12: Even Numbers from 1 to N
+
+
+### Question 12: Even Numbers from 1 to N
 Code:
 Python
 n = 10
@@ -217,7 +226,9 @@ for i in range(1, n + 1):
 Output:
 
 2 4 6 8 10
-✅ Question 13: Count Numbers > 50
+
+
+### Question 13: Count Numbers > 50
 Code:
 Python
 nums = [10, 60, 30, 80]
@@ -233,7 +244,9 @@ print(count)
 Output:
 
 2
-✅ Question 14: Reverse a Number
+
+
+### Question 14: Reverse a Number
 Code:
 Python
 num = 1234
@@ -249,7 +262,9 @@ print(rev)
 Output:
 
 4321
-✅ Question 15: Palindrome Number
+
+
+### Question 15: Palindrome Number
 Code:
 Python
 num = 121
@@ -270,7 +285,10 @@ else:
 Output:
 
 Palindrome
-✅ Question 16: Factorial
+
+
+
+### Question 16: Factorial
 Code:
 Python
 num = 5
@@ -284,7 +302,10 @@ print(fact)
 Output:
 
 120
-✅ Question 17: Multiplication Table
+
+
+
+### Question 17: Multiplication Table
 Code:
 Python
 num = 3
@@ -295,7 +316,10 @@ for i in range(1, 11):
 Output:
 
 3 6 9 12 15 18 21 24 27 30
-✅ Question 18: Sum of Digits
+
+
+
+###Question 18: Sum of Digits
 Code:
 Python
 num = 123
@@ -311,7 +335,9 @@ print(sum_digits)
 Output:
 
 6
-✅ Question 19: Count Digits
+
+
+### Question 19: Count Digits
 Code:
 Python
 num = 45678
@@ -326,7 +352,10 @@ print(count)
 Output:
 
 5
-✅ Question 20: Max Without Built-in
+
+
+
+### Question 20: Max Without Built-in
 Code:
 Python
 nums = [5, 8, 2]
@@ -344,7 +373,8 @@ Output:
 
 8
 
-Question 21: Count Vowels in String
+
+### Question 21: Count Vowels in String
 Code:
 Python
 text = "hello"
@@ -363,12 +393,7 @@ Output:
 
 
 
-
-
-
-
-
-✅ Question 22: Palindrome String
+### Question 22: Palindrome String
 Code:
 Python
 text = "madam"
@@ -383,7 +408,7 @@ else:
 Output:
 
 Yes
-✅ Question 23: Remove Spaces
+### Question 23: Remove Spaces
 Code:
 Python
 text = "hello world"
@@ -398,7 +423,9 @@ print(result)
 Output:
 
 helloworld
-✅ Question 24: Count Character Occurrence
+
+
+### Question 24: Count Character Occurrence
 Code:
 Python
 text = "banana"
@@ -413,8 +440,7 @@ for ch in text:
 print(count)
 Output:
 
-3
-✅ Question 25: Uppercase Without Built-in
+3 Question 25: Uppercase Without Built-in
 Code:
 Python
 text = "abc"
@@ -445,7 +471,10 @@ print(longest)
 Output:
 
 programming
-✅ Question 27: Replace Vowels with *
+
+
+
+### Question 27: Replace Vowels with *
 Code:
 Python
 text = "hello"
@@ -462,7 +491,9 @@ print(result)
 Output:
 
 h*ll*
-✅ Question 28: Anagram Check
+
+
+### Question 28: Anagram Check
 Code:
 Python
 str1 = "listen"
@@ -476,7 +507,10 @@ else:
 Output:
 
 True
-✅ Question 29: Count Words
+
+
+
+### Question 29: Count Words
 Code:
 Python
 text = "Python is great"
@@ -488,7 +522,9 @@ print(len(words))
 Output:
 
 3
-✅ Question 30: Duplicate Characters
+
+
+### Question 30: Duplicate Characters
 Code:
 Python
 text = "programming"
