@@ -1,0 +1,14 @@
+####-------problem
+Code:
+Python
+num = 5
+fact = 1p
+
+# Calculate factorial
+for i in range(1, num + 1):
+    fact *= i
+
+print(fact)
+Output:
+
+120
